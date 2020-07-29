@@ -1,0 +1,70 @@
+
+
+{
+  books{
+    name
+    id
+    author{
+      name
+    }
+  }
+}
+
+
+
+===========================================
+
+{
+  authors{
+    name
+    books{
+      name
+    }
+  }
+}
+
+===========================================
+
+{
+  author(id: 3){
+    name
+    books{
+      name
+    }
+  }
+}
+
+===========================================
+
+mutation{
+  addBook(name: "New Book", authorId: 3){
+    name
+    id
+    author{
+      name
+    }
+  }
+}
+
+===========================================
+
+mutation{
+  addBook(name: "New Book2", authorId: 2){
+    name
+    id
+    author{
+      name
+    }
+  }
+}
+
+===========================================
+
+
+mutation{
+  deleteBook(id : 10){
+    ok
+  }
+}
+
+===========================================

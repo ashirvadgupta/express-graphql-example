@@ -1,0 +1,31 @@
+{
+  "name": "express-graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashirvadgupta/express-graphql-example.git"
+  },
+  "keywords": [
+    "graphql",
+    "express"
+  ],
+  "author": "Ashirvad Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashirvadgupta/express-graphql-example/issues"
+  },
+  "homepage": "https://github.com/ashirvadgupta/express-graphql-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
